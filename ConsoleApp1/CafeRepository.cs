@@ -8,5 +8,6 @@ namespace CafeChallange.Console
 {
     class CafeRepository
     {
+        
     }
 }

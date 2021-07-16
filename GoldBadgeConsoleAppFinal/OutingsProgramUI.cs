@@ -8,5 +8,16 @@ namespace Outings.Console
 {
     class OutingsProgramUI
     {
+        private readonly OutingsRepository outingsrepo = OutingsRepository();
+        bool keepProgramRunning = true;
+        public void Run()
+        {
+            outingsrepo.InitilizeDataTable();
+            while (keepProgramRunning)
+            {
+                Console.Clear();
+                Console.WriteLine()
+            }
+        }
     }
 }
