@@ -19,6 +19,7 @@ namespace CafeChallange.Console
 
             {
                 //need meal number, meal name, description, list of ingredients, a price 
+                //an example of what the user-end app would look like
                 System.Console.WriteLine("Welcome to Komodo Cafe! You've got some sweet options for today!\n" +
                                               "1. 'The Veganator' Vegan Burger N Fries $12\n" +
                                               "2. 'The Wild Mushroom' Portabella Sandwich N Mac $14\n" +
